@@ -1,0 +1,33 @@
+/*
+ Theme Name:   CCI-dev Home
+ Theme URI:    http://beta.cci-dev.org
+ Description:  Theme for the CCI-dev landing site
+ Author:       Jacob Malcom
+ Author URI:   https://cci-dev.org
+rTemplate:     publishable-mag
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  publishable-child
+*/
+
+.top_panel {
+	background-color: white;
+	border: 1px solid #E0E0E0;
+	border-radius: 2px;
+	color: #757575;
+	padding: 12px 20px;
+}
+
+.theChampSharing {
+	margin: 2px !important;
+}
+
+
+.restrict {
+	background-color: red;
+	color: white;
+	font-weight: 700;
+	padding: 5px;
+}
