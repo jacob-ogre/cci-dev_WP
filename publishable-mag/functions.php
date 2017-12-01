@@ -255,29 +255,29 @@ include_once( "functions/widget-social.php" );
 
 /**
  * Copyrights
- */
-if ( ! function_exists( 'publishable_lite_copyrights_credit' ) ) {
+
+if ( ! function_exists( 'publishable_lite_copyrights_credit' ) ) {  */
     function publishable_lite_copyrights_credit() { 
     global $mts_options
-?>
-<!--start copyrights-->
-<div class="copyrights">
-    <div class="container">
-        <div class="row" id="copyright-note">
-            <span>
+      ?>
+      <!--start copyrights-->
+      <div class="copyrights">
+          <div class="container">
+              <div class="row" id="copyright-note">
+                  <span>
 
-    <?php echo 'CC: BY-NC '.date_i18n(__('Y','publishable-mag')); ?> Defenders of Wildlife
+          <?php echo 'CC: BY-NC '.date_i18n(__('Y','publishable-mag')); ?> Defenders of Wildlife
 
-            <div class="top">
-            
-                <a href="#top" class="toplink"><?php _e('Back to Top','publishable-mag'); ?> &uarr;</a>
-            </div>
-        </div>
-    </div>
-</div>
-<!--end copyrights-->
-<?php }
-}
+                  <div class="top">
+                  
+                      <a href="#top" class="toplink"><?php _e('Back to Top','publishable-mag'); ?> &uarr;</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--end copyrights-->
+      <?php }
+/* } */
 
 /**
  * Custom Comments template
