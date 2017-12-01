@@ -48,4 +48,19 @@ if ( ! function_exists( 'publishable_lite_copyrights_credit' ) ) {
       <?php }
 }
 
+/*
+ * Excerpt
+ */
+function publishable_lite_excerpt($limit) {
+  $excerpt = explode(' ', get_the_excerpt(), $limit);
+  if (count($excerpt)>=$limit) {
+    array_pop($excerpt);
+    $excerpt = implode(" ",$excerpt);
+  } else {
+    $excerpt = implode(" ",$excerpt);
+  }
+  $excerpt = preg_replace('`[[^]]*]`','',$excerpt);
+  $excerpt = preg_replace('"Favorite[d]"','',$excerpt,-1, $count);
+  return $excerpt;
+}
 ?>
