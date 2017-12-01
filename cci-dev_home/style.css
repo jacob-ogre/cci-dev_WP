@@ -12,6 +12,62 @@ rTemplate:     publishable-mag
  Text Domain:  publishable-child
 */
 
+h4 {
+  margin-bottom: 20px;
+}
+.site-branding {
+	max-width: 75%
+}
+
+#searchform input[type='submit'],
+#commentform input#submit,
+.readMore a {
+	background-color: #FF8500;
+	border-radius: 2px;
+	padding: 5px;
+	color: white;
+}
+
+#searchform input[type='submit']:hover,
+#commentform input#submit:hover,
+.readMore a:hover {
+	background-color: #023589;
+}
+
+.single-post a,
+.single_post a {
+	color: #FF8500;
+}
+
+.site-title a {
+	color: white;
+}
+
+h4 a {
+	color: white !important;
+	background-color: #FF8500;
+	border-radius: 2px;
+	padding: 8px 20px ;
+}
+
+h4 a:hover {
+	background-color: #023589;
+}
+
+@media screen and (max-width: 1100px) {
+	#page, .container, .site-branding {
+		padding-top: 30px;
+	}
+}
+
+.panel {
+	border-radius: 2px;
+}
+
+.panel-primary > .panel-heading {
+	background-color: #023589;
+}
+
 .top_panel {
 	background-color: white;
 	border: 1px solid #E0E0E0;
@@ -23,7 +79,6 @@ rTemplate:     publishable-mag
 .theChampSharing {
 	margin: 2px !important;
 }
-
 
 .restrict {
 	background-color: red;
